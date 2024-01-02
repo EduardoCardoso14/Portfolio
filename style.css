@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&display=swap');
+
+:root {
+    --bg: #e4ebf0;
+    --branco: #ffffff;
+    --primaryDark: #4180ab;
+    --option2: #bdd1de;
+    --option3: #8ab3cf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg);
+    overflow-x: hidden;
+    /*font-family: 'Bebas Neue', sans-serif;*/
+
+}
+
+/*---- Menu ----*/
+
+header {
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    border: 1px solid var(--primaryDark);
+    background-color: var(--option2);
+    width: 100%;
+    height: 80px;
+}
+
+nav {
+    position: relative;
+    margin-top: 25px;
+}
+
+.links {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+
+.links a {
+
+    text-decoration: none;
+    color: inherit;
+    margin: 20px;
+}
+
+/*---- Meio / Principal ----*/
+main{
+    position: absolute;
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 85%;
+}
+.container-main{
+    background-color: var(--option2);
+    position: relative;
+    width: 80%;
+    height: 300px;
+    margin-top: 30px;
+    left: 10%;
+}
+.circulo{
+    background-color: var(--branco);
+    border-radius: 50%;
+    border: 3px solid var(--primaryDark);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+.circulo img{
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+
+
+/*---- Rodapé ----*/
+
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    border: 1px solid var(--primaryDark);
+    background-color: var(--option2);
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 110px;
+}
+.principalFooter h3{
+    position: relative;
+    right: 25%;
+    top: 33px;
+}
+.secondFooter h4{
+    position: relative;
+    float: right;
+    text-decoration: none;
+    color: inherit;
+    right: -5%;
+    top: -20px;
+}
+.listaContato li{
+    list-style-type: none;
+}
+.listaContato a{
+    margin: 5px;
+    text-decoration: none;
+    color: inherit;    
+}
+.listaContato img{
+    margin-top: 5px;
+    width: 3%;
+}
